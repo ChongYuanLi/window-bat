@@ -1,5 +1,4 @@
-```jsx
-The first method 
+::The first method 
 
 @echo off
 cd /d "%~dp0"
@@ -13,7 +12,7 @@ echo WScript.Quit >>"%temp%\getadmin.vbs"
 if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
 exit
 
-The second method
+::The second method
 ::::::::::::::::::::::::::::::::::::::::::::
 :: Elevate.cmd - Version 4
 :: Automatically check & get admin rights
